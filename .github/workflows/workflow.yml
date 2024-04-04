@@ -12,9 +12,6 @@ jobs:
     container: python:3.9-slim
     steps:
 
-      - name: Check Python version
-        run: python3 -- version
-
       - name: Install Python 3.9
         run: brew install python@3.9
 
